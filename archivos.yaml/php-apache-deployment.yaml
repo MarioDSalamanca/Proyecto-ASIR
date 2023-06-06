@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: mariodsasir/php-apache:twt
+        image: mariodsasir/proyecto:php-apache
         imagePullPolicy: Always
         ports:
         - containerPort: 8081

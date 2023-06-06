@@ -2,13 +2,18 @@
 FROM php:7.4-apache
 
 # Extensiones de php para poder leer mysqli
-RUN  docker-php-ext-install mysqli && docker-php-ext-enable mysqli 
+RUN  docker-php-ext-install mysqli && docker-php-ext-enable mysqli
 
+# Copiar árbol de ficheros de la web
 COPY WEB /var/www/html/PHP/
 
+# Dar permisos al directorio /var/www/html/
 RUN chmod -R 777 /var/www/html/* && \
     mv /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini && \
+    # Habilitar la extensión mysqli en el archivo php.ini
     sed -i 's/\;extension=mysqli\b/extension=mysqli/g' /usr/local/etc/php/php.ini && \
+    # Ocultar los avisos, errores y noticias
     sed -i 's/\display_errors=On\b/display_errors=Off/g' /usr/local/etc/php/php.ini && \
+    # Añadir ruta del archivo php.ini al directorio de configuración de apache2
     echo 'PHPINIDir "/usr/local/etc/php/php.ini"' >> /etc/apache2/apache2.conf && \
     /etc/init.d/apache2 restart

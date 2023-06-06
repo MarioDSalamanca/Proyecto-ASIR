@@ -34,7 +34,7 @@ spec:
         tier: database
     spec:
       containers:
-      - image: mariodsasir/mysql:without_env
+      - image: mariodsasir/proyecto:mysql
         name: db-mysql
         env:
         - name: MYSQL_ROOT_PASSWORD
@@ -43,15 +43,15 @@ spec:
               name: mysql-secret
               key: root-pass
         - name: MYSQL_DATABASE
-            valueFrom:
-              secretKeyRef:
-                name: mysql-secret
-                key: mysql-db
+          valueFrom:
+            secretKeyRef:
+              name: mysql-secret
+              key: mysql-db
         ports:
         - containerPort: 3306
         volumeMounts:
         - name: mysql-persistent-storage
-          mountPath: /bbddmysql
+          mountPath: /var/lib/mysql
       volumes:
       - name: mysql-persistent-storage
         persistentVolumeClaim:
