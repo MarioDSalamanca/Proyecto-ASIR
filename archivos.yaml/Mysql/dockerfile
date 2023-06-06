@@ -1,0 +1,9 @@
+# imagen de mysql                
+FROM mysql:latest
+
+CMD microdnf install glibc-langpack-en
+
+ENV LANG en_US.utf8
+
+# Copiar la bbdd en el directorio desde donde mysql dispara los scripts al arrancar por primera vez
+COPY TWT_First.sql /docker-entrypoint-initdb.d/

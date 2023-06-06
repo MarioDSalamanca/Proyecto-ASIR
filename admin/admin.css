@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+header {
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    z-index: 1;
+    border-bottom: 3px solid blue;
+    background-color: rgb(171, 204, 207);
+}
+header img {
+    position: relative;
+    float: left;
+    width: 7.2%;
+    margin-left: 2%;
+}
+header h1 {
+    position: relative;
+    float: left;
+    width: 80%;
+    margin-top: 2.5%;
+    text-align: center;
+    cursor: default;
+}
+main {
+    width: 100%;
+    padding-top: 7.5%;
+    background-color: rgb(242, 242, 242);
+}
+.volver {
+    position: relative;
+    float: left;
+    margin-top: 2.5%;
+    margin-left: 5%;
+    font-size: 110%;
+    text-decoration: none;
+    color: white;
+    background-color: darkblue;
+    padding: .5%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu {
+    position: fixed;
+    width: 20%;
+    height: 85%;
+    background-color: transparent;
+    border-right: 2px solid black;
+}
+.menu h2 {
+    margin: 5%;
+    text-align: center;
+}.menu div {
+    position: relative;
+    float: left;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 27%;
+}
+.menu a {
+    color: black;
+    font-size: 110%;
+    font-weight: 600;
+    text-decoration: none;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+.botones {
+    margin-left: 24%;
+}
+.insertar {
+    width: auto;
+    font-size: 110%;
+    padding: .5%;
+    margin-top: 2%;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#newinsert {
+    display: none;
+    width: 90%;
+    padding: 2%;
+    margin-top: 1%;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+.insertar2 {
+    width: auto;
+    font-size: 90%;
+    padding: .5%;
+    margin: 2%;
+    margin-bottom: .5%;
+    margin-left: 1%;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.newdatos {
+    background-color: white;
+    width: 16%;
+    padding: .5%;
+    font-size: 100%;
+    text-align: left;
+    border-radius: 2px;
+}
+.botones input[type=file] {
+    width: auto;
+}
+.cuerpo {
+    margin-left: 20.5%;
+    padding-bottom: 13%;
+}
+.cuerpo table {
+    margin: auto;
+    width: 95%;
+    text-align: center;
+    padding: 1%;
+    margin-top: 2%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+}
+.cuerpo td {
+    font-size: 90%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+.editar {
+    background-color: darkblue;
+    color: white;
+    padding: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input {
+    border: 0;
+    text-align: center;
+    color: black;
+    width: 90%;
+    padding: 1%;
+    text-decoration: none;
+    background-color: transparent;
+}
+textarea {
+    width: 100%;
+    padding: 1.5%;
+}
+.textareaedit {
+    width: 95%;
+}
+select {
+    background-color: white;
+    padding: 1%;
+    color: black;
+    border: 0px;
+}
+#divedicion {
+    z-index: 2;
+    position: fixed;
+    background-color: white;
+    border: blue 5px solid;
+    border-radius: 20px;
+    width: 65%;
+    padding: .5%;
+    margin-top: 1%;
+    margin-left: 6%;
+    font-size: 110%;
+}
+.adiosedit {
+    float: left;
+    width: 3%;
+    padding: 0%;
+    font-size: 120%;
+    cursor: pointer;
+}
+.contedicion {
+    border-radius: 10px;
+    padding: 4%;
+}
+.contedicion div {
+    display: inline-block;
+    width: 49%;
+}
+.contedicion .inputedit {
+    width: 60%;
+    font-size: 90%;
+    padding: .5%;
+    margin: 1%;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.contedicion .fileedit {
+    width: auto;
+    padding: 1%;
+    margin: 1%;
+}
+.modificar {
+    background-color: blue;
+    color: white;
+    font-size: 80%;
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 40%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.modificar:hover {
+    background-color: darkblue;
+}
+#divborrar {
+    z-index: 2;
+    position: fixed;
+    background-color: white;
+    border: blue 5px solid;
+    border-radius: 20px;
+    width: 55%;
+    padding: 3%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-top: 3%;
+    margin-left: 9%;
+    font-size: 110%;
+    text-align: center;
+}
+.confirmar {
+    background-color: red;
+    color: white;
+    font-size: 80%;
+    margin-top: 3%;
+    width: 40%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cancelar {
+    background-color: blue;
+    color: white;
+    font-size: 80%;
+    margin-top: 3%;
+    width: 40%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.alertas {
+    font-size: 130%;
+    text-align: center;
+    color: red;
+    font-weight: 600;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
