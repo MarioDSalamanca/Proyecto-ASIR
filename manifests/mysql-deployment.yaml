@@ -34,7 +34,7 @@ spec:
         tier: database
     spec:
       containers:
-      - image: mariodsasir/proyecto:mysql
+      - image: mariodsasir/proyecto:mysql-db
         name: db-mysql
         env:
         - name: MYSQL_ROOT_PASSWORD

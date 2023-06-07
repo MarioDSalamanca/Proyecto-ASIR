@@ -303,7 +303,7 @@ INSERT INTO `foro` (`id`, `nombre`, `apellido`, `comentario`, `fecha`, `tipo`, `
 (5, 'Jose Manuel', 'Prieto', 'Hola, esto es una pregunta de relleno para el foro', '2023-05-15 00:00:00', 'pregunta', 'Esto es la respuesta a tu pregunta Jose'),
 (6, 'Sandra', 'Bujak', 'Esta es otra pregunta para el foro ¿Qué va antes el huevo o la gallina?', '2023-05-15 00:00:00', 'pregunta', 'La gallina sin duda'),
 (7, 'Mario', 'Dieguez', 'Hola buenos días, Esta es una pregunta sin contestar de relleno para el foro un poco más largo que el anterior para ajustar más el tamaño de las cajas de la página web de TWT_First', '2023-05-15 00:00:00', 'pregunta', NULL),
-(8, 'Antony James', 'Cruz', '¿Las devoluciones a donde se mandan?', '2023-05-15 00:00:00', 'pregunta', 'No se acepta devolución'),
+(8, 'Antony James', 'Cruz', '¿Las devoluciones a donde se mandan?', '2023-05-15 00:00:00', 'pregunta', 'No se acepta devolución');
 
 -- --------------------------------------------------------
 

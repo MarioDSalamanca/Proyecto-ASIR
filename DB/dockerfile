@@ -1,6 +1,8 @@
 # imagen de mysql                
 FROM mysql:latest
 
+#ENV MYSQL_ROOT_PASSWORD rootroot
+#ENV MYSQL_DATABASE TWT_First
 ENV LANG en_US.utf8
 
 # Copiar la bbdd en el directorio desde donde mysql dispara los scripts al arrancar por primera vez

@@ -1,8 +1,8 @@
-# Imagen de php8 + apache
+# Imagen de php7.4 + apache
 FROM php:7.4-apache
 
 # Extensiones de php para poder leer mysqli
-RUN  docker-php-ext-install mysqli && docker-php-ext-enable mysqli
+RUN  docker-php-ext-install mysqli && docker-php-ext-enable mysqli 
 
 # Copiar árbol de ficheros de la web
 COPY WEB /var/www/html/PHP/
@@ -13,7 +13,8 @@ RUN chmod -R 777 /var/www/html/* && \
     # Habilitar la extensión mysqli en el archivo php.ini
     sed -i 's/\;extension=mysqli\b/extension=mysqli/g' /usr/local/etc/php/php.ini && \
     # Ocultar los avisos, errores y noticias
-    sed -i 's/\display_errors=On\b/display_errors=Off/g' /usr/local/etc/php/php.ini && \
+    sed -i 's/error_reporting = E_ALL/error_reporting = E_ALL \& ~E_NOTICE/g' /usr/local/etc/php/php.ini && \
+    sed -i 's/display_errors = On/display_errors = Off/g' /usr/local/etc/php/php.ini && \
     # Añadir ruta del archivo php.ini al directorio de configuración de apache2
     echo 'PHPINIDir "/usr/local/etc/php/php.ini"' >> /etc/apache2/apache2.conf && \
     /etc/init.d/apache2 restart
