@@ -17,6 +17,9 @@ if (empty($_SESSION['correo'])) {
     <body>
         <header>
             <table class="headforo">
+                <td>
+                    <span class="flecha"><a href="./foro.html">&#10150;</a></span>
+                </td>
                 <td width='24%'>
                     <a href="./index.php"><img class="logoforo" src="./IndexFotos/Logo.jpg"></a>
                 </td>
@@ -26,7 +29,6 @@ if (empty($_SESSION['correo'])) {
             </table>
         </header>
         <main id="main">
-            <p class="flecha"><a href="./foro.html">&#10150;</a></p>
             <div class='comentarios'>
             <?php
 
