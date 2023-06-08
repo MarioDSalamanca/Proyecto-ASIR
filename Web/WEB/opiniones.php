@@ -18,9 +18,9 @@ if (empty($_SESSION['correo'])) {
         <header>
             <table class="headforo">
                 <td>
-                    <span class="flecha"><a href="./foro.html">&#10150;</a></span>
+                    <span><a href="./foro.html">&#10150;</a></span>
                 </td>
-                <td width='24%'>
+                <td width='30%'>
                     <a href="./index.php"><img class="logoforo" src="./IndexFotos/Logo.jpg"></a>
                 </td>
                 <td>
