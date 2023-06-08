@@ -235,13 +235,26 @@ header > table {
     font-weight: 800;
     font-size: 100%;
     margin: auto;
-    text-align: center;
-    width: 30%;
+    width: 100%;
+}
+.headlogin img {
+    width: 23%;
+    margin-right: 2%;
+    float: right;
 }
 .headlogin p {
     font-weight: 800;
-    font-size: 250%;
-    margin-top: 7%;
+    font-size: 220%;
+    margin-left: 2%;
+    text-align: left;
+}
+.headlogin span {
+    float: left;
+    font-size: 300%;
+    width: 3%;
+    cursor: pointer;
+    margin-left: 40%;
+    transform: rotate(180deg);
 }
 .logologin {
     position: relative;
@@ -254,12 +267,26 @@ header > table {
     font-weight: 800;
     font-size: 100%;
     margin: auto;
-    width: 35%;
+    width: 100%;
+}
+.headforo span {
+    float: left;
+    font-size: 300%;
+    width: 3%;
+    cursor: pointer;
+    margin-left: 70%;
+    transform: rotate(180deg);
 }
 .headforo p {
     font-weight: 800;
     font-size: 220%;
-    text-align: center;
+    margin-left: 1%;
+    text-align: left;
+}
+.headforo img {
+    width: 23%;
+    margin-right: 2%;
+    float: right;
 }
 .logoforo {
     width: 85%;
@@ -765,15 +792,6 @@ header > table {
 
 /* -------------- Productos finales -------------- */
 
-.flecha {
-    position: fixed;
-    font-size: 320%;
-    margin-top: 1%;
-    margin-left: 2%;
-    width: 3%;
-    cursor: pointer;
-    transform: rotate(180deg);
-}
 .tituloprod {
     width: 100%;
     font-size: 130%;
