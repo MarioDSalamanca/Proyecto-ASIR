@@ -1,6 +1,6 @@
 <?php
 $dbuser = 'root';
 $dbpass = 'rootroot';
-$dbhost = 'localhost';
+$dbhost = 'mysql';
 $dbname = 'TWT_First';
 ?>
