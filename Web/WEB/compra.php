@@ -18,10 +18,10 @@
         <header>
             <table class="headlogin">
                 <td>
-                    <span><a href="../index.php">&#10150;</a></span>
+                    <span><a href="index.php">&#10150;</a></span>
                 </td>
                 <td width='30%'>
-                    <a href="../index.php"><img class="logoforo" src="../IndexFotos/Logo.jpg"></a>
+                    <a href="index.php"><img class="logoforo" src="IndexFotos/Logo.jpg"></a>
                 </td>
                 <td>
                     <p>TWT_First</p>
