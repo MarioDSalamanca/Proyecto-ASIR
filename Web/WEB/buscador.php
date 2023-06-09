@@ -30,7 +30,7 @@
         echo "<h3>Resultados encontrados: ".$rows."</h3>";
         while ($resultado = mysqli_fetch_assoc($consulta)) {
     
-            echo "<a href='/PHP/Web/WEB/ProductosHTML/".$resultado['tabla']."/".$resultado['nombre'].".php'><p><table><tr><td width='10%'><img class='imgbuscador' src='/PHP/Fotos_Productos/".$resultado['tabla'].'/'.$resultado['imagen']."'.jpg ></td><td>".$resultado['nombre']." - ".$resultado['precio']."€</td></tr></table></p></a>";
+            echo "<a href='/PHP/ProductosHTML/".$resultado['tabla']."/".$resultado['nombre'].".php'><p><table><tr><td width='10%'><img class='imgbuscador' src='/PHP/Fotos_Productos/".$resultado['tabla'].'/'.$resultado['imagen']."'.jpg ></td><td>".$resultado['nombre']." - ".$resultado['precio']."€</td></tr></table></p></a>";
     
         }
     }
