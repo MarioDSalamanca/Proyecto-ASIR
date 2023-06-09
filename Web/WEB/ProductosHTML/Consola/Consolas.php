@@ -81,7 +81,7 @@ session_start();
                         ?>
                     </td>
                     <td width="10%">
-                        <a href="/PHP/carrito.php"><img class="iconocarrito" src="../../IndexFotos/carrito.png" title="Cesta"></a>
+                    <a href="../../carrito.php"><img class="iconocarrito" src="../../IndexFotos/carrito.png" title="Cesta"></a>
                     </td>
                 </tr>
             </table>

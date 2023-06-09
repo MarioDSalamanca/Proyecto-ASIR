@@ -357,17 +357,17 @@ session_start();
                         if (isset($_REQUEST['aplicar'])) {
                             
                             # Variables
-                            if (!empty(is_numeric($_REQUEST['precio1']))) {
+                            if (is_numeric($_REQUEST['precio1']) < $_REQUEST['precio2']) {
                                 $precio1 = $_REQUEST['precio1'];
                             }
                             else {
-                                $precio1 = 50;
+                                $precio1 = 0;
                             }
-                            if (!empty(is_numeric($_REQUEST['precio2']))) {
+                            if (is_numeric($_REQUEST['precio2']) > $_REQUEST['precio1']) {
                                 $precio2 = $_REQUEST['precio2'];
                             }
                             else {
-                                $precio2 = 3000;
+                                $precio2 = 6000;
                             }
                             $orden = $_REQUEST['orden'];
                             $modelo = $_REQUEST['modelo'];

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost
--- Tiempo de generación: 20-05-2023 a las 20:28:23
+-- Tiempo de generación: 09-06-2023 a las 21:22:04
 -- Versión del servidor: 10.4.25-MariaDB
 -- Versión de PHP: 8.1.10
 
@@ -167,12 +167,10 @@ INSERT INTO `Componentes` (`id`, `nombre`, `especificación`, `precio`, `empresa
 (10120, 'LG 27MD5KL-B 27 Pul', 'LG 27MD5KL-B 27 Pul LED IPS 5K UltraHD', 1314.76, 'LG', 'PCs', 'Monitor', 1000, 'LG 27MD5KL-B 27 Pul.jpg', 'Pantalla'),
 (10121, 'LG 34WK95U-W 34 Pul', 'LG 34WK95U-W 34 Pul LED IPS UltraWide UltraHD 5K', 1183.81, 'LG', 'PCs', 'Monitor', 1000, 'LG 34WK95U-W 34 Pul.jpg', 'Pantalla'),
 (10122, 'ASUS ProArt PA329C 32 Pul', 'ASUS ProArt PA329C 32 Pul LED IPS UltraHD 4K HDR', 1190.02, 'ASUS', 'PCs', 'Monitor', 1000, 'ASUS ProArt PA329C 32 Pul.jpg', 'Pantalla'),
-(10123, 'Philips Brilliance 499P9H 49 Pul', 'Philips Brilliance 499P9H 49 Pul LED SuperWide Curva', 1139, 'Philips', 'PCs', 'Monitor', 1000, 'Philips Brilliance 499P9H 49 Pul.jpg', 'Pantalla'),
 (10124, 'Acer Predatos X X34GS 34 Pul', 'Acer Predator X X34GS 34 Pul LED IPS UWQHD 180Hz G-SYNC Compatible Curva', 1062.81, 'Acer', 'PCs', 'Monitor', 1000, 'Acer Predatos X X34GS 34 Pul.jpg', 'Pantalla'),
 (10125, 'Dell C5519Q 55 Pul', 'Dell C5519Q Pantalla de Señalización LED 55 Pul UltraHD 4K', 982.31, 'Dell', 'PCs', 'Monitor', 1000, 'Dell C5519Q 55 Pul.jpg', 'Pantalla'),
 (10126, 'MSI MPG Artymis 343CQRDE 34 Pul', 'MSI MPG Artymis 343CQRDE 34 Pul LED UWQHD HDR FreeSync Premium Curvo', 988.99, 'MSI', 'PCs', 'Monitor', 1000, 'MSI MPG Artymis 343CQRDE 34 Pul.jpg', 'Pantalla'),
 (10127, 'Gigabyte M32UC 31.5 Pul', 'Gigabyte M32UC 31.5 Pul LED UltraHD 4K 160Hz FreeSync Premium Pro Curva', 699, 'Gigabyte', 'PCs', 'Monitor', 1000, 'Gigabyte M32UC 31.5 Pul.jpg', 'Pantalla'),
-(10128, 'Philips 346P1CRH 34 Pul', 'Philips 346P1CRH 34 Pul LED UltraWide Quad HD 100Hz Curvo USB-C', 677.73, 'Philips', 'PCs', 'Monitor', 1000, 'Philips 346P1CRH 34 Pul.jpg', 'Pantalla'),
 (10129, 'Samsung Odissey G7 28 Pul', 'Samsung Odissey G7 LS28AG700NUXEN 28 Pul LED IPS UltraHD 4K 144Hz G-Sync Compatible', 699.88, 'Samsung', 'PCs', 'Monitor', 1000, 'Samsung Odissey G7 28 Pul.jpg', 'Pantalla'),
 (10130, 'MSI Optix MAG274QRF 27 Pul', 'MSI Optix MAG274QRF 27 Pul LED IPS WQHD 165Hz G-Sync Compatible', 660.99, 'MSI', 'PCs', 'Monitor', 1000, 'MSI Optix MAG274QRF 27 Pul.jpg', 'Pantalla'),
 (10131, 'ASUS ROG Strix XG16AHP-W 15.6 Pul', 'ASUS ROG Strix XG16AHP-W Monitor Portátil 15.6 Pul LED IPS FullHD 144 Hz G-Sync Compatible Blanco', 497.43, 'ASUS', 'PCs', 'Monitor', 1000, 'ASUS ROG Strix XG16AHP-W 15.6 Pul.jpg', 'Pantalla'),
@@ -190,7 +188,7 @@ INSERT INTO `Componentes` (`id`, `nombre`, `especificación`, `precio`, `empresa
 (10143, 'ASUS W5000', 'ASUS W5000 Teclado + Ratón Inalámbricos Gris', 44.66, 'ASUS', 'PCs', 'Teclado', 1000, 'ASUS W5000.jpg', 'Teclado'),
 (10144, 'Dell Professional 15 Pul', 'Dell Professional Maletín para Portátil hasta 15 Pul Negro/Gris', 106.1, 'Dell', 'Portatil', 'Funda', 1000, 'Dell Professional 15 Pul.jpg', 'Funda portátiles'),
 (10145, 'Mobilis Executive 3 17 Pul', 'Mobilis Executive 3 Maletín con Ruedas Negro/Azul para Portátil de 14 Pul-17\'', 94.99, 'Mobilis', 'Portatil', 'Funda', 1000, 'Mobilis Executive 3 17 Pul.jpg', 'Funda portátiles'),
-(10146, 'MSI Prestige 17 Pul', 'MSI Prestige Maletín para Portátil 17 Pul', 89.39, 'MSI', 'Portatil', 'Funda', 1000, 'MSI Prestige 17.jpg', 'Funda portátiles'),
+(10146, 'MSI Prestige 17 Pul', 'MSI Prestige Maletín para Portátil 17 Pul', 89.39, 'MSI', 'Portatil', 'Funda', 1000, 'MSI Prestige 17 Pul.jpg', 'Funda portátiles'),
 (10147, 'UAG Large Sleeve 15 Pul', 'UAG Large Sleeve para Tablet/Portátil 15 Pul Roja', 65.04, 'UAG', 'Portatil', 'Funda', 1000, 'UAG Large Sleeve 15 Pul.jpg', 'Funda portátiles'),
 (10148, 'MSI TOPLOAD WORKSTATION 17 Pul', 'MSI TOPLOAD WORKSTATION Maletín para Portátil 17 Pul', 59, 'MSI', 'Portatil', 'Funda', 1000, 'MSI TOPLOAD WORKSTATION 17 Pul.jpg', 'Funda portátiles'),
 (10149, 'Targus MultiFit EcoSmart 16 Pul', 'Targus MultiFit EcoSmart Funda Azul para Portátil hasta 16 Pul', 27.99, 'Targus', 'Portatil', 'Funda', 1000, 'Targus MultiFit EcoSmart 16 Pul.jpg', 'Funda portátiles'),
@@ -213,7 +211,9 @@ INSERT INTO `Componentes` (`id`, `nombre`, `especificación`, `precio`, `empresa
 (10166, 'Kingston ValueRAM DDR3L 8GB', 'Kingston ValueRAM SO-DIMM DDR3L 1600 PC3-12800 8GB CL11', 59.43, 'Kingston', 'Portatil', 'SO-DIMM', 1000, 'Kingston ValueRAM DDR3L 8GB.jpg', 'SO-DIMM'),
 (10167, 'Crucial DDR4 16GB', 'Crucial SO-DIMM DDR4 3200MHz PC4-25600 16GB CL22', 47.96, 'Crucial', 'Portatil', 'SO-DIMM', 1000, 'Crucial DDR4 16GB.jpg', 'SO-DIMM'),
 (10168, 'PNY MN4GSD42666 DDR4 4GB', 'PNY MN4GSD42666 SO-DIMM DDR4 2666 MHz 4GB CL19', 29.53, 'PNY', 'Portatil', 'SO-DIMM', 1000, 'PNY MN4GSD42666 DDR4 4GB.jpg', 'SO-DIMM'),
-(10169, 'Corsair Vengeance DDR4 8GB', 'Corsair Vengeance SO-DIMM DDR4 2400MHz PC4-19200 8GB CL16', 25.99, 'Corsair', 'Portatil', 'SO-DIMM', 1000, 'Corsair Vengeance DDR4 8GB.jpg', 'SO-DIMM');
+(10169, 'Corsair Vengeance DDR4 8GB', 'Corsair Vengeance SO-DIMM DDR4 2400MHz PC4-19200 8GB CL16', 25.99, 'Corsair', 'Portatil', 'SO-DIMM', 1000, 'Corsair Vengeance DDR4 8GB.jpg', 'SO-DIMM'),
+(10123, 'Philips Brilliance 499P9H 49 Pul', 'Philips Brilliance 499P9H 49 Pul LED SuperWide Curva', 1139, 'Philips', 'PCs', 'Monitor', 1000, 'Philips Brilliance 499P9H 49 Pul.jpg', 'Pantalla'),
+(10128, 'Philips 346P1CRH 34 Pul', 'Philips 346P1CRH 34 Pul LED UltraWide Quad HD 100Hz Curvo USB-C', 677.73, 'Philips', 'PCs', 'Monitor', 1000, 'Philips 346P1CRH 34 Pul.jpg', 'Pantalla');
 
 -- --------------------------------------------------------
 
@@ -303,7 +303,38 @@ INSERT INTO `foro` (`id`, `nombre`, `apellido`, `comentario`, `fecha`, `tipo`, `
 (5, 'Jose Manuel', 'Prieto', 'Hola, esto es una pregunta de relleno para el foro', '2023-05-15 00:00:00', 'pregunta', 'Esto es la respuesta a tu pregunta Jose'),
 (6, 'Sandra', 'Bujak', 'Esta es otra pregunta para el foro ¿Qué va antes el huevo o la gallina?', '2023-05-15 00:00:00', 'pregunta', 'La gallina sin duda'),
 (7, 'Mario', 'Dieguez', 'Hola buenos días, Esta es una pregunta sin contestar de relleno para el foro un poco más largo que el anterior para ajustar más el tamaño de las cajas de la página web de TWT_First', '2023-05-15 00:00:00', 'pregunta', NULL),
-(8, 'Antony James', 'Cruz', '¿Las devoluciones a donde se mandan?', '2023-05-15 00:00:00', 'pregunta', 'No se acepta devolución');
+(8, 'Antony James', 'Cruz', '¿Las devoluciones a donde se mandan?', '2023-05-15 00:00:00', 'pregunta', 'No se acepta devolución'),
+(9, 'Sandra', 'Bujak', 'Opinion nueva ejemplo', '2023-05-17 20:53:38', 'opinion', NULL),
+(10, 'Sandra', 'Bujak', 'opinion nueva ejemplo 2', '2023-05-17 20:53:59', 'opinion', NULL),
+(11, 'Sandra', 'Bujak', 'Opinion 3 para opiniones', '2023-05-17 20:58:14', 'opinion', NULL),
+(12, 'Sandra', 'Bujak', 'Opinion de prueba 4', '2023-05-17 21:05:30', 'opinion', NULL),
+(13, 'Sandra', 'Bujak', 'Opinion 5 de prueba', '2023-05-17 21:06:08', 'opinion', NULL),
+(14, 'Sandra', 'Bujak', 'OPiniones para ejemplo 6', '2023-05-17 21:07:39', 'opinion', NULL),
+(15, 'Sandra', 'Bujak', 'Opiniones para ejemplo 7', '2023-05-17 21:07:55', 'opinion', NULL),
+(16, 'Sandra', 'Bujak', 'Opiniones para ejemplo 8', '2023-05-17 21:08:23', 'opinion', NULL),
+(17, 'Sandra', 'Bujak', 'Ejemplo 9 de opinion', '2023-05-17 21:18:12', 'opinion', NULL),
+(813, 'Sandra', 'Bujak', 'Opinion 1111222222', '2023-05-17 21:27:34', 'opinion', NULL),
+(814, 'Sandra', 'Bujak', 'Esto es una pregunta de prueba para el JS', '2023-05-17 21:28:06', 'pregunta', NULL),
+(815, 'Sandra', 'Bujak', 'Esto es una pregunta de prueba para el JS', '2023-05-18 08:39:56', 'pregunta', NULL),
+(928, 'Sandra', 'Bujak', 'Otra pregunta de prueba', '2023-05-18 08:41:39', 'pregunta', NULL),
+(929, 'Sandra', 'Bujak', 'Otra pregnta más', '2023-05-18 08:42:01', 'pregunta', NULL),
+(930, 'Sandra', 'Bujak', 'Otra pregnta más', '2023-05-18 08:42:10', 'pregunta', NULL),
+(931, 'Sandra', 'Bujak', 'Una pregunta de prueba más', '2023-05-18 08:42:23', 'pregunta', NULL),
+(1033, 'Sandra', 'Bujak', 'UNa pODOAKCFDSCISDJZ', '2023-05-18 08:47:41', 'pregunta', NULL),
+(1034, 'Sandra', 'Bujak', 'UNa pODOAKCFDSCISDJZ', '2023-05-18 08:48:36', 'pregunta', NULL),
+(1035, 'Sandra', 'Bujak', 'fdljnbvjfgnnbgds', '2023-05-18 08:48:40', 'pregunta', NULL),
+(1036, 'Sandra', 'Bujak', 'Ockdjmvdfmvmfjvmfnvzxnsdfvnfdnbvjfjxv', '2023-05-18 08:50:59', 'pregunta', NULL),
+(1037, 'Sandra', 'Bujak', 'Último ejemplo de pregunta', '2023-05-18 08:52:11', 'pregunta', NULL),
+(1038, 'Sandra', 'Bujak', 'Útimo ejemplo de OPINI=MN', '2023-05-18 08:52:48', 'opinion', NULL),
+(1039, 'Sandra', 'Bujak', 'Opinion nueva', '2023-05-18 09:02:06', 'opinion', NULL),
+(1040, 'Sandra', 'Bujak', 'Opinin nskmdskdmsk', '2023-05-18 09:02:17', 'opinion', NULL),
+(1041, 'Sandra', 'Bujak', 'Opinin nskmdskdmsk', '2023-05-18 09:03:36', 'opinion', NULL),
+(1042, 'Sandra', 'Bujak', 'Opinin nskmdskdmsk', '2023-05-18 09:03:50', 'opinion', NULL),
+(1043, 'Sandra', 'Bujak', 'SIUUUUUUUUU', '2023-05-18 09:04:15', 'opinion', NULL),
+(1044, 'Sandra', 'Bujak', 'SIUUUUUUUUU', '2023-05-18 09:04:38', 'opinion', NULL),
+(1045, 'Sandra', 'Bujak', 'NOOSKDOKODdscd', '2023-05-18 09:05:14', 'opinion', NULL),
+(1046, 'Sandra', 'Bujak', 'EJEMplo 4515415', '2023-05-18 09:50:06', 'opinion', NULL),
+(1047, 'Sandra', 'Bujak', 'OGTRA M^REOKSD', '2023-05-18 09:50:17', 'pregunta', NULL);
 
 -- --------------------------------------------------------
 
@@ -528,12 +559,6 @@ INSERT INTO `usuarios` (`id`, `nombre`, `apellido`, `correo`, `clave`, `tipo_usu
 --
 
 --
--- Indices de la tabla `Componentes`
---
-ALTER TABLE `Componentes`
-  ADD PRIMARY KEY (`id`);
-
---
 -- Indices de la tabla `compras`
 --
 ALTER TABLE `compras`
@@ -584,12 +609,6 @@ ALTER TABLE `usuarios`
 --
 -- AUTO_INCREMENT de las tablas volcadas
 --
-
---
--- AUTO_INCREMENT de la tabla `Componentes`
---
-ALTER TABLE `Componentes`
-  MODIFY `id` int(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10173;
 
 --
 -- AUTO_INCREMENT de la tabla `compras`

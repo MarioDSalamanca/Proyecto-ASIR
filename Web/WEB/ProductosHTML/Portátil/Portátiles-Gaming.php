@@ -81,7 +81,7 @@ session_start();
                         ?>
                     </td>
                     <td width="10%">
-                        <a href="/PHP/carrito.php"><img class="iconocarrito" src="../../IndexFotos/carrito.png" title="Cesta"></a>
+                    <a href="../../carrito.php"><img class="iconocarrito" src="../../IndexFotos/carrito.png" title="Cesta"></a>
                     </td>
                 </tr>
             </table>
@@ -284,7 +284,7 @@ session_start();
                     <tr>
                         <td>
                             <p class="pfilter">Precio: <input type="number" name="precio1" class="filtroprecio" placeholder="50"> - 
-                            <input type="number" name="precio2" class="filtroprecio" placeholder="2000"></p>
+                            <input type="number" name="precio2" class="filtroprecio" placeholder="6000"></p>
                         </td>
                     </tr>
                     <tr>
@@ -357,13 +357,13 @@ session_start();
                         if (isset($_REQUEST['aplicar'])) {
                             
                             # Variables
-                            if (!empty(is_numeric($_REQUEST['precio1']))) {
+                            if (is_numeric($_REQUEST['precio1']) < $_REQUEST['precio2']) {
                                 $precio1 = $_REQUEST['precio1'];
                             }
                             else {
-                                $precio1 = 50;
+                                $precio1 = 0;
                             }
-                            if (!empty(is_numeric($_REQUEST['precio2']))) {
+                            if (is_numeric($_REQUEST['precio2']) > $_REQUEST['precio1']) {
                                 $precio2 = $_REQUEST['precio2'];
                             }
                             else {

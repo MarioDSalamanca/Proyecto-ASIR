@@ -91,7 +91,7 @@ session_start();
                         ?>
                     </td>
                     <td width="10%">
-                        <a href="/PHP/carrito.php"><img class="iconocarrito" src="./IndexFotos/carrito.png" title="Cesta"></a>
+                        <a href="carrito.php"><img class="iconocarrito" src="./IndexFotos/carrito.png" title="Cesta"></a>
                     </td>
                 </tr>
             </table>
@@ -314,7 +314,7 @@ session_start();
                         <a href="./ProductosHTML/Portátil/Portátiles.php"><img src="./Fotos_Productos/Portátil/HP Victus 16-E0098NS.jpg" alt="" title="PORTÁTILES"></a>
                     </td>
                     <td>
-                        <a href="./ProductosHTML/Televisión/TVs.php"><img src="./Fotos_Productos/Televisión/LG 75QNED966QA 75.jpg" alt="" title="COMPONENTES">
+                        <a href="./ProductosHTML/Televisión/TVs.php"><img src="./Fotos_Productos/Televisión/LG 75QNED966QA 75 Pul.jpg" alt="" title="COMPONENTES">
                     </td>
                 </tr>
             </table>

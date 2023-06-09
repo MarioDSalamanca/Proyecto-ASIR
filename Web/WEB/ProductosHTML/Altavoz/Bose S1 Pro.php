@@ -87,7 +87,7 @@
                         ?>
                     </td>
                     <td width="10%">
-                        <a href="/PHP/carrito.php"><img class="iconocarrito" src="../../IndexFotos/carrito.png" title="Cesta"></a>
+                    <a href="../../carrito.php"><img class="iconocarrito" src="../../IndexFotos/carrito.png" title="Cesta"></a>
                     </td>
                 </tr>
             </table>
@@ -298,7 +298,6 @@
 
                         $bbdd = mysqli_fetch_array($consulta);
                 ?>
-            <p class="flecha"><a href="../Componente/Altavoces.php">&#10150;</a></p>
             <form action="Bose S1 Pro.php" method="post" class="formprod">
                 <input type="hidden" name="nombre" value="<?php echo $bbdd['nombre']; ?>">
                 <input type="hidden" name="tabla" value="<?php echo $bbdd['tabla']; ?>">
