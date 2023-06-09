@@ -16,10 +16,17 @@
     </head>
     <body>
         <header>
-            <div class="headlogin">
-                <a href="./index.php"><img class="logologin" src="./IndexFotos/Logo.jpg"></a>
-                <p>TWT_First</p>
-            </div>
+            <table class="headlogin">
+                <td>
+                    <span><a href="../index.php">&#10150;</a></span>
+                </td>
+                <td width='30%'>
+                    <a href="../index.php"><img class="logoforo" src="../IndexFotos/Logo.jpg"></a>
+                </td>
+                <td>
+                    <p>TWT_First</p>
+                </td>
+            </table>
         </header>
         <main id="main">
             <h2 class="detalles">Detalles de pedido:</h2>
